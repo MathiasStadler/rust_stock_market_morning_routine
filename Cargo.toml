@@ -4,5 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+assert_cmd = "2.0.17"
 ibapi = "1.0.19"
 rustfmt = "0.10.0"
+
+
+[[bin]]
+name = "rust_stock_market_morning_routine"
+path = "examples/test_coverage.rs"
