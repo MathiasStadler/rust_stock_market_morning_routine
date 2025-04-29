@@ -1,0 +1,193 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rust_stock_market_morning_routine'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rust_stock_market_morning_routine",
+                    "--package=rust_stock_market_morning_routine"
+                ],
+                "filter": {
+                    "name": "rust_stock_market_morning_routine",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'rust_stock_market_morning_routine'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=rust_stock_market_morning_routine",
+                    "--package=rust_stock_market_morning_routine"
+                ],
+                "filter": {
+                    "name": "rust_stock_market_morning_routine",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'dyn_boxing_errors'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=dyn_boxing_errors",
+                    "--package=rust_stock_market_morning_routine"
+                ],
+                "filter": {
+                    "name": "dyn_boxing_errors",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'dyn_boxing_errors'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=dyn_boxing_errors",
+                    "--package=rust_stock_market_morning_routine"
+                ],
+                "filter": {
+                    "name": "dyn_boxing_errors",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'example'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=example",
+                    "--package=rust_stock_market_morning_routine"
+                ],
+                "filter": {
+                    "name": "example",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'example'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=example",
+                    "--package=rust_stock_market_morning_routine"
+                ],
+                "filter": {
+                    "name": "example",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'main_run_error_log_handling_01'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=main_run_error_log_handling_01",
+                    "--package=rust_stock_market_morning_routine"
+                ],
+                "filter": {
+                    "name": "main_run_error_log_handling_01",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'main_run_error_log_handling_01'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=main_run_error_log_handling_01",
+                    "--package=rust_stock_market_morning_routine"
+                ],
+                "filter": {
+                    "name": "main_run_error_log_handling_01",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'main_run_error_log_handling_02'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=main_run_error_log_handling_02",
+                    "--package=rust_stock_market_morning_routine"
+                ],
+                "filter": {
+                    "name": "main_run_error_log_handling_02",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'main_run_error_log_handling_02'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=main_run_error_log_handling_02",
+                    "--package=rust_stock_market_morning_routine"
+                ],
+                "filter": {
+                    "name": "main_run_error_log_handling_02",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

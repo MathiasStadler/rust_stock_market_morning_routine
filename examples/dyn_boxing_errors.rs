@@ -36,11 +36,11 @@ fn print(result: Result<i32>) {
 }
 
 fn main() {
-    let numbers = vec!["42", "93", "18"];
-    let empty = vec![];
-    let strings = vec!["tofu", "93", "18"];
+    let numbers = vec!["33", "93", "18"];
+    // let empty = vec![];
+    // let strings = vec!["tofu", "93", "18"];
 
     print(double_first(numbers));
-    print(double_first(empty));
-    print(double_first(strings));
+    // print(double_first(empty));
+    // print(double_first(strings));
 }
