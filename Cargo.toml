@@ -4,4 +4,5 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+ibapi = "1.0.19"
 rustfmt = "0.10.0"

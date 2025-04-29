@@ -36,6 +36,9 @@ touch README.md \
 ### rust
 
     - [wboayue /rust-ibapi ](https://github.com/wboayue/rust-ibapi)
+      - 122 stars
+      - high activity
+  
     - [wvietor/ibkr_rust](https://github.com/wvietor/ibkr_rust)
     - [yahoo! finance API](https://github.com/xemwebe/yahoo_finance_api)
 
