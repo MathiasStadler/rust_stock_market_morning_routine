@@ -8,7 +8,7 @@ type BoxResult<T> = Result<T, Box<dyn Error>>;
 
 fn run(s: &str) -> BoxResult<i32> {
     if s.len() == 0 {
-        panic!("empty string");
+        panic!("Err(Empty string)");
     }
     Ok(s.trim().parse()?)
 }
@@ -23,3 +23,6 @@ fn main() {
 // Ok(23)
 // Err(ParseIntError { kind: InvalidDigit })
 // Err(StringError("empty string"))
+
+// RUST_BACKTRACE=full cargo run --package rust_stock_market_morning_routine --example main_run_error_log_handling
+// RUST_BACKTRACE=1 cargo run --package rust_stock_market_morning_routine --example main_run_error_log_handling
