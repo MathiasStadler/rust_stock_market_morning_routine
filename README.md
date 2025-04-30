@@ -53,7 +53,7 @@ touch README.md \
 
 - [Should unit tests really be put in the same file as the source?](https://users.rust-lang.org/t/should-unit-tests-really-be-put-in-the-same-file-as-the-source/62153/2)
   
-  - **REASON** A nice benefit of that is that it speeds up compilation times, because the compiler doesn't have to parse the tests :smiley:
+  - **REASON** A nice advantage of this separation is that it speeds up compilation and thus saves time, since the compiler does not have to analyze/compile the tests. :smiley:
   
 - [Test Organization](https://doc.rust-lang.org/book/ch11-03-test-organization.html)
 
